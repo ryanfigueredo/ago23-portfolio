@@ -1,16 +1,12 @@
 import React from "react"
 import Header from "../components/Header/Header"
 import Footer from "../components/Footer/Footer"
-import "./LandingPageRyan.css";
-
+import "./LandingPageRyan.css"
 
 const LandingPageRyan: React.FC = () => {
   return ( 
-    <div className="divmain">
-
-      
+    <div className="divmain">      
       <Header />
-
       <div>
       <div className="movie">
         <video
@@ -25,13 +21,9 @@ const LandingPageRyan: React.FC = () => {
           <source src="/movie.mp4" type="video/mp4" />
           Seu navegador não suporta a reprodução de vídeos.
         </video>
-      </div>
-
-      
+      </div>      
     </div>
-
-      <Footer />
-      
+    <Footer />
     </div>
 
   )

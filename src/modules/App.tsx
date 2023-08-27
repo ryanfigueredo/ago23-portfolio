@@ -1,24 +1,25 @@
-import React, { useEffect } from "react";
-import { Routes, Route, useNavigationType, useLocation } from "react-router-dom";
-import LandigPageRyan from "./LandingPageRyan";
-import CafePalmaresGallery from "./pages/Gallery/CafePalmaresGallery";
-import FerreiraGallery from "./pages/Gallery/FerreiraGallery";
-import ColonialGallery from "./pages/Gallery/ColonialGallery";
-import ObornGallery from "./pages/Gallery/ObornGallery";
-import VistaSoberbaGallery from "./pages/Gallery/VistaSoberbaGallery";
-import BringportGallery from "./pages/Gallery/BringportGallery";
-import OdontoEasyGallery from "./pages/Gallery/OdontoEasyGallery";
-import GeminGallery from "./pages/Gallery/GeminGallery";
-import EtnaGallery from "./pages/Gallery/EtnaGallery";
-import SublimeGallery from "./pages/Gallery/SublimeGallery";
-import StreetGallery from "./pages/Gallery/StreetGallery";
-import SportiveGallery from "./pages/Gallery/SportiveGallery";
-import GamesGallery from "./pages/Gallery/GamesGallery";
-import SportsSection from "./pages/SportsSection";
-import DeveloperSection from "./pages/DevSection";
-import DesignerSection from "./pages/DesignSection";
-import AboutSection from "./pages/AboutSection/AboutSection";
-import Error404 from '../Error404';
+import React, { useEffect } from "react"
+import { Routes, Route, useLocation } from "react-router-dom"
+import { useNavigationType } from "react-router-dom"
+import LandingPageRyan from "./LandingPageRyan"
+import CafePalmaresGallery from "./pages/Gallery/CafePalmaresGallery"
+import FerreiraGallery from "./pages/Gallery/FerreiraGallery"
+import ColonialGallery from "./pages/Gallery/ColonialGallery"
+import ObornGallery from "./pages/Gallery/ObornGallery"
+import VistaSoberbaGallery from "./pages/Gallery/VistaSoberbaGallery"
+import BringportGallery from "./pages/Gallery/BringportGallery"
+import OdontoEasyGallery from "./pages/Gallery/OdontoEasyGallery"
+import GeminGallery from "./pages/Gallery/GeminGallery"
+import EtnaGallery from "./pages/Gallery/EtnaGallery"
+import SublimeGallery from "./pages/Gallery/SublimeGallery"
+import StreetGallery from "./pages/Gallery/StreetGallery"
+import SportiveGallery from "./pages/Gallery/SportiveGallery"
+import GamesGallery from "./pages/Gallery/GamesGallery"
+import SportsSection from "./pages/SportsSection"
+import DeveloperSection from "./pages/DevSection"
+import DesignerSection from "./pages/DesignSection"
+import AboutSection from "./pages/AboutSection/AboutSection"
+import Error404 from '../Error404'
 
 function App() {
   const action = useNavigationType();
@@ -106,7 +107,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<LandigPageRyan />} />
+      <Route path="/" element={<LandingPageRyan />} />
       <Route path="/cafepalmares" element={<CafePalmaresGallery />} />
       <Route path="/ferreira" element={<FerreiraGallery />} />
       <Route path="/colonial" element={<ColonialGallery />} />
