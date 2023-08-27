@@ -2,7 +2,6 @@ import React from "react"
 import Header from "../../../components/Header/Header"
 import Footer from "../../../components/Footer/Footer"
 import "./LandingPageRyan.css";
-import Animation from './Animation';
 
 
 const LandingPageRyan: React.FC = () => {
@@ -10,7 +9,6 @@ const LandingPageRyan: React.FC = () => {
     <div className="divmain">
 
       
-      <Animation />
       <Header />
 
       <div>

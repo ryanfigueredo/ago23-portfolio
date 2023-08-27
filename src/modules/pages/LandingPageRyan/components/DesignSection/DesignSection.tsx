@@ -8,8 +8,6 @@ const DesignSection: React.FC = () => {
   return (
     <section id="designer">
        <Header />
-      
-        
         <div className="sectiondev">
           <b className="title">Design Gráfico</b>
           <div>

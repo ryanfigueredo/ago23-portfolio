@@ -1,24 +1,24 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useNavigationType, useLocation } from "react-router-dom";
-import LandigPageRyan from "./modules/pages/LandingPageRyan/LandingPageRyan";
-import CafePalmaresGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/CafePalmaresGallery";
-import FerreiraGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/FerreiraGallery";
-import ColonialGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/ColonialGallery";
-import ObornGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/ObornGallery";
-import VistaSoberbaGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/VistaSoberbaGallery";
-import BringportGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/BringportGallery";
-import OdontoEasyGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/OdontoEasyGallery";
-import GeminGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/GeminGallery";
-import EtnaGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/EtnaGallery";
-import SublimeGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/SublimeGallery";
-import StreetGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/StreetGallery";
-import SportiveGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/SportiveGallery";
-import GamesGallery from "./modules/pages/LandingPageRyan/components/DesignSection/page/GamesGallery";
-import Error404 from './Error404';
-import DeveloperSection from "./modules/pages/LandingPageRyan/components/DevSection/DevSection";
-import DesignerSection from "./modules/pages/LandingPageRyan/components/DesignSection/DesignSection";
-import SportsSection from "./modules/pages/LandingPageRyan/components/DesignSection/SportsSection";
-import AboutSection from "./modules/pages/LandingPageRyan/components/AboutSection/AboutSection";
+import LandigPageRyan from "./LandingPageRyan";
+import CafePalmaresGallery from "./components/DesignSection/Gallery/CafePalmaresGallery";
+import FerreiraGallery from "./components/DesignSection/Gallery/FerreiraGallery";
+import ColonialGallery from "./components/DesignSection/Gallery/ColonialGallery";
+import ObornGallery from "./components/DesignSection/Gallery/ObornGallery";
+import VistaSoberbaGallery from "./components/DesignSection/Gallery/VistaSoberbaGallery";
+import BringportGallery from "./components/DesignSection/Gallery/BringportGallery";
+import OdontoEasyGallery from "./components/DesignSection/Gallery/OdontoEasyGallery";
+import GeminGallery from "./components/DesignSection/Gallery/GeminGallery";
+import EtnaGallery from "./components/DesignSection/Gallery/EtnaGallery";
+import SublimeGallery from "./components/DesignSection/Gallery/SublimeGallery";
+import StreetGallery from "./components/DesignSection/Gallery/StreetGallery";
+import SportiveGallery from "./components/DesignSection/Gallery/SportiveGallery";
+import GamesGallery from "./components/DesignSection/Gallery/GamesGallery";
+import DeveloperSection from "./components/DevSection/DevSection";
+import DesignerSection from "./components/DesignSection/DesignSection";
+import SportsSection from "./components/DesignSection/SportsSection";
+import AboutSection from "./components/AboutSection/AboutSection";
+import Error404 from '../../../Error404';
 
 
 function App() {
