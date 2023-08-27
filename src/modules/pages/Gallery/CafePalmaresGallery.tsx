@@ -1,27 +1,20 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../../../../../../components/Header/Header"
-import Footer from "../../../../../../components/Footer/Footer"
+import Header from "../../../components/Header/Header"
+import Footer from "../../../components/Footer/Footer"
 
-const FerreiraGallery: React.FC = () => {
+const CafePalmaresGallery: React.FC = () => {
   const images = [
-    "posts/ferreiratelecom/01.png",
-    "posts/ferreiratelecom/02.png",
-    "posts/ferreiratelecom/03.png",
-    "posts/ferreiratelecom/04.png",
-    "posts/ferreiratelecom/05.png",
-    "posts/ferreiratelecom/06.png",
-    "posts/ferreiratelecom/07.png",
-    "posts/ferreiratelecom/08.png",
-    "posts/ferreiratelecom/09.png",
-    "posts/ferreiratelecom/10.png",
-    "posts/ferreiratelecom/11.png",
-    "posts/ferreiratelecom/12.png",
-    "posts/ferreiratelecom/13.png",
-    "posts/ferreiratelecom/14.png",
-    "posts/ferreiratelecom/15.png",
-    "posts/ferreiratelecom/st1.png",
-    "posts/ferreiratelecom/st2.png",
+    "posts/cafepalmares/palmaresaniverfri.png",
+    "posts/cafepalmares/palmares1.png",
+    "posts/cafepalmares/palmares2.png",
+    "posts/cafepalmares/palmares3.png",
+    "posts/cafepalmares/palmares4.png",
+    "posts/cafepalmares/palmares5.png",
+    "posts/cafepalmares/palmares6.png",
+    "posts/cafepalmares/palmares7.png",
+    "posts/cafepalmares/palmares8.png",
+    "posts/cafepalmares/palmares9.png",
   ];
 
   const [selectedImage, setSelectedImage] = useState("");
@@ -83,7 +76,7 @@ const FerreiraGallery: React.FC = () => {
       <section
         className="bg-gray-200 w-[100%] flex flex-col box-border items-center justify-start"
       >
-        <h1 className="text-[2rem] text-mediumblue-300">Ferreira Telecom</h1>
+        <h1 className="text-[2rem] text-mediumblue-300">Café Palmares</h1>
         <br />
 
         <div className="flex flex-col px-[6.25rem] items-start justify-start text-center">
@@ -95,5 +88,5 @@ const FerreiraGallery: React.FC = () => {
     </div>
   );
 };
-
-export default FerreiraGallery;
+ 
+export default CafePalmaresGallery;

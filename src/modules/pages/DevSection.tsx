@@ -1,7 +1,7 @@
 import React from "react";
 import "./DevSection.css";
-import Header from "../../../../../components/Header/Header"
-import Footer from "../../../../../components/Footer/Footer"
+import Header from "../../components/Header/Header"
+import Footer from "../../components/Footer/Footer"
 
 const DevSection: React.FC = () => {
   return (
@@ -39,12 +39,12 @@ const DevSection: React.FC = () => {
               </div>
 
               <div className="box">
-                <a className="sitedev" href="https://layoutwiki.com.br" target="_blank" rel="noreferrer">
-                  <img className="img-container" src="capaprojetos/wiki.png" style={{ borderRadius: '.7rem' }}/>
+                <a className="sitedev" href="https://layoutdev.net.br/irmaosmury/" target="_blank" rel="noreferrer">
+                  <img className="img-container" src="capaprojetos/irmaosmury.png" style={{ borderRadius: '.7rem' }}/>
                   <div className="boxdescriptiondev">
                     <ul>
-                      <li>Dev - Calculadora ROI + ROAS (React + TS)</li>
-                      <li><span>Layout Wiki</span></li>
+                      <li>Site Instituicional c/ Orçamento de pedidos</li>
+                      <li><span>Irmãos Mury</span></li>
                     </ul>                      
                   </div>
                 </a>
@@ -94,17 +94,7 @@ const DevSection: React.FC = () => {
 
             <div className="sectiontwo">
 
-              <div className="box">
-                <a className="sitedev" href="https://layoutdev.net.br/irmaosmury/" target="_blank" rel="noreferrer">
-                  <img className="img-container" src="capaprojetos/irmaosmury.png" style={{ borderRadius: '.7rem' }}/>
-                  <div className="boxdescriptiondev">
-                    <ul>
-                      <li>Site Instituicional c/ Orçamento de pedidos</li>
-                      <li><span>Irmãos Mury</span></li>
-                    </ul>                      
-                  </div>
-                </a>
-              </div>
+              
 
               {/* <div className="box">
                 <a className="sitedev" href="#" target="_blank" rel="noreferrer">

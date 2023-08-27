@@ -1,5 +1,5 @@
 import React from "react";
-import "./FeatureSection.css";
+import "./AboutSection.css";
 
 const FeatureSection: React.FC = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import "./AboutSection.css";
 import "../../LandingPageRyan.css";
-import Header from "../../../../../components/Header/Header"
-import Footer from "../../../../../components/Footer/Footer"
+import Header from "../../../components/Header/Header"
+import Footer from "../../../components/Footer/Footer"
 
 const AboutSection: React.FC = () => {
   return (

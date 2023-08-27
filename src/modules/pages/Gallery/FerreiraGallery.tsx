@@ -1,21 +1,27 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../../../../../../components/Header/Header"
-import Footer from "../../../../../../components/Footer/Footer"
+import Header from "../../../components/Header/Header"
+import Footer from "../../../components/Footer/Footer"
 
-const ObornGallery: React.FC = () => {
+const FerreiraGallery: React.FC = () => {
   const images = [
-    "posts/oborn/05.png",
-    "posts/oborn/09.png",
-    "posts/oborn/10.png",
-    "posts/oborn/01.png",
-    "posts/oborn/04.png",
-    "posts/oborn/02.png",
-    "posts/oborn/03.png",
-    "posts/oborn/06.png",
-    "posts/oborn/07.png",
-    "posts/oborn/08.png",
-    "posts/oborn/11.png",
+    "posts/ferreiratelecom/01.png",
+    "posts/ferreiratelecom/02.png",
+    "posts/ferreiratelecom/03.png",
+    "posts/ferreiratelecom/04.png",
+    "posts/ferreiratelecom/05.png",
+    "posts/ferreiratelecom/06.png",
+    "posts/ferreiratelecom/07.png",
+    "posts/ferreiratelecom/08.png",
+    "posts/ferreiratelecom/09.png",
+    "posts/ferreiratelecom/10.png",
+    "posts/ferreiratelecom/11.png",
+    "posts/ferreiratelecom/12.png",
+    "posts/ferreiratelecom/13.png",
+    "posts/ferreiratelecom/14.png",
+    "posts/ferreiratelecom/15.png",
+    "posts/ferreiratelecom/st1.png",
+    "posts/ferreiratelecom/st2.png",
   ];
 
   const [selectedImage, setSelectedImage] = useState("");
@@ -77,7 +83,7 @@ const ObornGallery: React.FC = () => {
       <section
         className="bg-gray-200 w-[100%] flex flex-col box-border items-center justify-start"
       >
-        <h1 className="text-[2rem] text-mediumblue-300">O'Born Vestuário</h1>
+        <h1 className="text-[2rem] text-mediumblue-300">Ferreira Telecom</h1>
         <br />
 
         <div className="flex flex-col px-[6.25rem] items-start justify-start text-center">
@@ -90,4 +96,4 @@ const ObornGallery: React.FC = () => {
   );
 };
 
-export default ObornGallery;
+export default FerreiraGallery;

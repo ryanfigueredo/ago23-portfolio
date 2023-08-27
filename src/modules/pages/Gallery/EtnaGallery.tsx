@@ -1,14 +1,22 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../../../../../../components/Header/Header"
-import Footer from "../../../../../../components/Footer/Footer"
+import Header from "../../../components/Header/Header"
+import Footer from "../../../components/Footer/Footer"
 
-const SportiveGallery: React.FC = () => {
+const EtnaGallery: React.FC = () => {
   const images = [
-    "posts/sports/01.png",
-    "posts/sports/02.png",
-    "posts/sports/03.png",
-    "posts/sports/04.png",
+    "posts/etna/1.png",
+    "posts/etna/2.png",
+    "posts/etna/4.png",
+    "posts/etna/5.png",
+    "posts/etna/6.png",
+    "posts/etna/7.png",
+    "posts/etna/8.png",
+    "posts/etna/9.png",
+    "posts/etna/10.png",
+    "posts/etna/11.png",
+    "posts/etna/12.png",
+    
   ];
 
   const [selectedImage, setSelectedImage] = useState("");
@@ -70,7 +78,7 @@ const SportiveGallery: React.FC = () => {
       <section
         className="bg-gray-200 w-[100%] flex flex-col box-border items-center justify-start"
       >
-        <h1 className="text-[2rem] text-mediumblue-300">Esportes</h1>
+        <h1 className="text-[2rem] text-mediumblue-300">Colonial Gourmet</h1>
         <br />
 
         <div className="flex flex-col px-[6.25rem] items-start justify-start text-center">
@@ -83,4 +91,4 @@ const SportiveGallery: React.FC = () => {
   );
 };
 
-export default SportiveGallery;
+export default EtnaGallery;

@@ -1,17 +1,22 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../../../../../../components/Header/Header"
-import Footer from "../../../../../../components/Footer/Footer"
+import Header from "../../../components/Header/Header"
+import Footer from "../../../components/Footer/Footer"
 
-const GeminGallery: React.FC = () => {
+const VistaSoberbaGallery: React.FC = () => {
   const images = [
-    "posts/gemini/1.png",
-    "posts/gemini/2.png",
-    "posts/gemini/3.png",
-    "posts/gemini/4.png",
-    "posts/gemini/5.png",
-    "posts/gemini/6.png",
-    
+    "posts/vistasoberba/1.png",
+    "posts/vistasoberba/2.png",
+    "posts/vistasoberba/4.png",
+    "posts/vistasoberba/5.png",
+    "posts/vistasoberba/6.png",
+    "posts/vistasoberba/7.png",
+    "posts/vistasoberba/st1.png",
+    "posts/vistasoberba/st2.png",
+    "posts/vistasoberba/st3.png",
+    "posts/vistasoberba/st4.png",
+    "posts/vistasoberba/st5.png",
+    "posts/vistasoberba/st6.png",
   ];
 
   const [selectedImage, setSelectedImage] = useState("");
@@ -73,7 +78,7 @@ const GeminGallery: React.FC = () => {
       <section
         className="bg-gray-200 w-[100%] flex flex-col box-border items-center justify-start"
       >
-        <h1 className="text-[2rem] text-mediumblue-300">Gemini Engenharia</h1>
+        <h1 className="text-[2rem] text-mediumblue-300">Cuidado Sublime</h1>
         <br />
 
         <div className="flex flex-col px-[6.25rem] items-start justify-start text-center">
@@ -86,4 +91,4 @@ const GeminGallery: React.FC = () => {
   );
 };
 
-export default GeminGallery;
+export default VistaSoberbaGallery;

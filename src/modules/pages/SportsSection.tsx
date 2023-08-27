@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "../DevSection/DevSection.css";
-import Header from "../../../../../components/Header/Header"
-import Footer from "../../../../../components/Footer/Footer"
+import "./DevSection.css";
+import Header from "../../components/Header/Header"
+import Footer from "../../components/Footer/Footer"
 
 const SportsSection: React.FC = () => {
  

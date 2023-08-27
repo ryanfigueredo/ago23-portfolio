@@ -1,11 +1,21 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../../../../../../components/Header/Header"
-import Footer from "../../../../../../components/Footer/Footer"
+import Header from "../../../components/Header/Header"
+import Footer from "../../../components/Footer/Footer"
 
-const StreetGallery: React.FC = () => {
+const ObornGallery: React.FC = () => {
   const images = [
-    "/dunkFonteNova.png",    
+    "posts/oborn/05.png",
+    "posts/oborn/09.png",
+    "posts/oborn/10.png",
+    "posts/oborn/01.png",
+    "posts/oborn/04.png",
+    "posts/oborn/02.png",
+    "posts/oborn/03.png",
+    "posts/oborn/06.png",
+    "posts/oborn/07.png",
+    "posts/oborn/08.png",
+    "posts/oborn/11.png",
   ];
 
   const [selectedImage, setSelectedImage] = useState("");
@@ -67,7 +77,7 @@ const StreetGallery: React.FC = () => {
       <section
         className="bg-gray-200 w-[100%] flex flex-col box-border items-center justify-start"
       >
-        <h1 className="text-[2rem] text-mediumblue-300">Streetwear</h1>
+        <h1 className="text-[2rem] text-mediumblue-300">O'Born Vestuário</h1>
         <br />
 
         <div className="flex flex-col px-[6.25rem] items-start justify-start text-center">
@@ -80,4 +90,4 @@ const StreetGallery: React.FC = () => {
   );
 };
 
-export default StreetGallery;
+export default ObornGallery;

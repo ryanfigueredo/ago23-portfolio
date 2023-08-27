@@ -194,3 +194,53 @@ li {
   transform: scale(1.1);
 }
 
+
+
+.feature-section-container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  font-size: 1rem;
+  color: #5451A6;
+  flex-wrap: wrap; 
+
+  
+}
+
+.feature-section-container li{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.feature-section-container p{
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.title {
+  margin-left: 2rem;
+  font-size: 2rem;
+  color: #3732d9;
+}
+
+.education, .skills, .projects{
+  margin-bottom: 2rem;
+}
+
+
+
+.svgicons{
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.svgicons img {
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.svgicons img:hover {
+  transform: scale(1.1);
+}
+

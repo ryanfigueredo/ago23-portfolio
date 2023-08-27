@@ -1,25 +1,24 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useNavigationType, useLocation } from "react-router-dom";
 import LandigPageRyan from "./LandingPageRyan";
-import CafePalmaresGallery from "./components/DesignSection/Gallery/CafePalmaresGallery";
-import FerreiraGallery from "./components/DesignSection/Gallery/FerreiraGallery";
-import ColonialGallery from "./components/DesignSection/Gallery/ColonialGallery";
-import ObornGallery from "./components/DesignSection/Gallery/ObornGallery";
-import VistaSoberbaGallery from "./components/DesignSection/Gallery/VistaSoberbaGallery";
-import BringportGallery from "./components/DesignSection/Gallery/BringportGallery";
-import OdontoEasyGallery from "./components/DesignSection/Gallery/OdontoEasyGallery";
-import GeminGallery from "./components/DesignSection/Gallery/GeminGallery";
-import EtnaGallery from "./components/DesignSection/Gallery/EtnaGallery";
-import SublimeGallery from "./components/DesignSection/Gallery/SublimeGallery";
-import StreetGallery from "./components/DesignSection/Gallery/StreetGallery";
-import SportiveGallery from "./components/DesignSection/Gallery/SportiveGallery";
-import GamesGallery from "./components/DesignSection/Gallery/GamesGallery";
-import DeveloperSection from "./components/DevSection/DevSection";
-import DesignerSection from "./components/DesignSection/DesignSection";
-import SportsSection from "./components/DesignSection/SportsSection";
-import AboutSection from "./components/AboutSection/AboutSection";
-import Error404 from '../../../Error404';
-
+import CafePalmaresGallery from "./pages/Gallery/CafePalmaresGallery";
+import FerreiraGallery from "./pages/Gallery/FerreiraGallery";
+import ColonialGallery from "./pages/Gallery/ColonialGallery";
+import ObornGallery from "./pages/Gallery/ObornGallery";
+import VistaSoberbaGallery from "./pages/Gallery/VistaSoberbaGallery";
+import BringportGallery from "./pages/Gallery/BringportGallery";
+import OdontoEasyGallery from "./pages/Gallery/OdontoEasyGallery";
+import GeminGallery from "./pages/Gallery/GeminGallery";
+import EtnaGallery from "./pages/Gallery/EtnaGallery";
+import SublimeGallery from "./pages/Gallery/SublimeGallery";
+import StreetGallery from "./pages/Gallery/StreetGallery";
+import SportiveGallery from "./pages/Gallery/SportiveGallery";
+import GamesGallery from "./pages/Gallery/GamesGallery";
+import SportsSection from "./pages/SportsSection";
+import DeveloperSection from "./pages/DevSection";
+import DesignerSection from "./pages/DesignSection";
+import AboutSection from "./pages/AboutSection/AboutSection";
+import Error404 from '../Error404';
 
 function App() {
   const action = useNavigationType();

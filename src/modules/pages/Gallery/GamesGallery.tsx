@@ -1,25 +1,13 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../../../../../../components/Header/Header"
-import Footer from "../../../../../../components/Footer/Footer"
+import Header from "../../../components/Header/Header"
+import Footer from "../../../components/Footer/Footer"
 
-const OdontoEasyGallery: React.FC = () => {
+const GamesGallery: React.FC = () => {
   const images = [
-    "posts/odontoeasy/01.png",
-    "posts/odontoeasy/1.png",
-    "posts/odontoeasy/2.png",
-    "posts/odontoeasy/4.png",
-    "posts/odontoeasy/5.png",
-    "posts/odontoeasy/6.png",
-    "posts/odontoeasy/7.png",
-    "posts/odontoeasy/8.png",
-    "posts/odontoeasy/9.png",
-    "posts/odontoeasy/10.png",
-    "posts/odontoeasy/11.png",
-    "posts/odontoeasy/12.png",
-    "posts/odontoeasy/13.png",
-    "posts/odontoeasy/14.png",
-    "posts/odontoeasy/15.png",    
+    "posts/e_sports/01.png",
+    "posts/e_sports/03.png",
+    
   ];
 
   const [selectedImage, setSelectedImage] = useState("");
@@ -81,7 +69,7 @@ const OdontoEasyGallery: React.FC = () => {
       <section
         className="bg-gray-200 w-[100%] flex flex-col box-border items-center justify-start"
       >
-        <h1 className="text-[2rem] text-mediumblue-300">Clínica Odontoeasy</h1>
+        <h1 className="text-[2rem] text-mediumblue-300">Gg</h1>
         <br />
 
         <div className="flex flex-col px-[6.25rem] items-start justify-start text-center">
@@ -94,4 +82,5 @@ const OdontoEasyGallery: React.FC = () => {
   );
 };
 
-export default OdontoEasyGallery;
+
+export default GamesGallery;

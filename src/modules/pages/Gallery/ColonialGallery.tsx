@@ -1,19 +1,26 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../../../../../../components/Header/Header";
-import Footer from "../../../../../../components/Footer/Footer";
+import Header from "../../../components/Header/Header"
+import Footer from "../../../components/Footer/Footer"
 
-const BringportGallery: React.FC = () => {
+const ColonialGallery: React.FC = () => {
   const images = [
-    "posts/bringport/1.png",
-    "posts/bringport/2.png",
-    "posts/bringport/4.png",
-    "posts/bringport/5.png",
-    "posts/bringport/6.png",
-    "posts/bringport/7.png",
-    "posts/bringport/8.png",
-    "posts/bringport/9.png",
-    "posts/bringport/10.png",
+    "posts/colonial/01.png",
+    "posts/colonial/04.png",
+    "posts/colonial/02.png",
+    "posts/colonial/03.png",
+    "posts/colonial/05.png",
+    "posts/colonial/06.png",
+    "posts/colonial/07.png",
+    "posts/colonial/08.png",
+    "posts/colonial/09.png",
+    "posts/colonial/10.png",
+    "posts/colonial/11.png",
+    "posts/colonial/12.png",
+    "posts/colonial/13.png",
+    "posts/colonial/14.png",
+    "posts/colonial/15.png",
+    "posts/colonial/16.png",
   ];
 
   const [selectedImage, setSelectedImage] = useState("");
@@ -75,7 +82,7 @@ const BringportGallery: React.FC = () => {
       <section
         className="bg-gray-200 w-[100%] flex flex-col box-border items-center justify-start"
       >
-        <h1 className="text-[2rem] text-mediumblue-300">Bringport</h1>
+        <h1 className="text-[2rem] text-mediumblue-300">Colonial Gourmet</h1>
         <br />
 
         <div className="flex flex-col px-[6.25rem] items-start justify-start text-center">
@@ -88,4 +95,4 @@ const BringportGallery: React.FC = () => {
   );
 };
 
-export default BringportGallery;
+export default ColonialGallery;

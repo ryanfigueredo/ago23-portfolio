@@ -1,17 +1,25 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../../../../../../components/Header/Header"
-import Footer from "../../../../../../components/Footer/Footer"
+import Header from "../../../components/Header/Header"
+import Footer from "../../../components/Footer/Footer"
 
-const SublimeGallery: React.FC = () => {
+const OdontoEasyGallery: React.FC = () => {
   const images = [
-    "posts/sublime/1.png",
-    "posts/sublime/2.png",
-    "posts/sublime/3.png",
-    "posts/sublime/04.png",
-    "posts/sublime/05.png",
-    "posts/sublime/06.png",
-    "posts/sublime/07.png",
+    "posts/odontoeasy/01.png",
+    "posts/odontoeasy/1.png",
+    "posts/odontoeasy/2.png",
+    "posts/odontoeasy/4.png",
+    "posts/odontoeasy/5.png",
+    "posts/odontoeasy/6.png",
+    "posts/odontoeasy/7.png",
+    "posts/odontoeasy/8.png",
+    "posts/odontoeasy/9.png",
+    "posts/odontoeasy/10.png",
+    "posts/odontoeasy/11.png",
+    "posts/odontoeasy/12.png",
+    "posts/odontoeasy/13.png",
+    "posts/odontoeasy/14.png",
+    "posts/odontoeasy/15.png",    
   ];
 
   const [selectedImage, setSelectedImage] = useState("");
@@ -73,7 +81,7 @@ const SublimeGallery: React.FC = () => {
       <section
         className="bg-gray-200 w-[100%] flex flex-col box-border items-center justify-start"
       >
-        <h1 className="text-[2rem] text-mediumblue-300">Cuidado Sublime</h1>
+        <h1 className="text-[2rem] text-mediumblue-300">Clínica Odontoeasy</h1>
         <br />
 
         <div className="flex flex-col px-[6.25rem] items-start justify-start text-center">
@@ -86,4 +94,4 @@ const SublimeGallery: React.FC = () => {
   );
 };
 
-export default SublimeGallery;
+export default OdontoEasyGallery;

@@ -1,13 +1,17 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../../../../../../components/Header/Header"
-import Footer from "../../../../../../components/Footer/Footer"
+import Header from "../../../components/Header/Header"
+import Footer from "../../../components/Footer/Footer"
 
-const GamesGallery: React.FC = () => {
+const SublimeGallery: React.FC = () => {
   const images = [
-    "posts/e_sports/01.png",
-    "posts/e_sports/03.png",
-    
+    "posts/sublime/1.png",
+    "posts/sublime/2.png",
+    "posts/sublime/3.png",
+    "posts/sublime/04.png",
+    "posts/sublime/05.png",
+    "posts/sublime/06.png",
+    "posts/sublime/07.png",
   ];
 
   const [selectedImage, setSelectedImage] = useState("");
@@ -69,7 +73,7 @@ const GamesGallery: React.FC = () => {
       <section
         className="bg-gray-200 w-[100%] flex flex-col box-border items-center justify-start"
       >
-        <h1 className="text-[2rem] text-mediumblue-300">Gg</h1>
+        <h1 className="text-[2rem] text-mediumblue-300">Cuidado Sublime</h1>
         <br />
 
         <div className="flex flex-col px-[6.25rem] items-start justify-start text-center">
@@ -82,5 +86,4 @@ const GamesGallery: React.FC = () => {
   );
 };
 
-
-export default GamesGallery;
+export default SublimeGallery;
